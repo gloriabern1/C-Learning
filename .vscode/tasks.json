@@ -8,8 +8,8 @@
             "args": [
                 "-std=c++17",
                 "-g",
-                "${file}",
-                //"${fileDirname}\\*.cpp",
+                //"${file}",
+                "${fileDirname}\\*.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
