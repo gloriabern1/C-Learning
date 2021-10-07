@@ -9,6 +9,7 @@ int main(){
     cout<<"a is "<<a<<endl;
     //declare int reference
     int& rA=a;
+    cout<<"address of a is "<<rA<<endl;
     rA=5;
     cout<<"a is "<<a<<endl;
 
